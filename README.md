@@ -30,15 +30,14 @@ The delta was 1279 images, or slightly more than half the larger set. I used ove
 The second challenge was overfitting.  I used a Resnet-50 architecture which tended to favor the training set over the validation set.  
 To overcome this, we applied a standard set of augmentation transforms provided by FastAI, with the exception of flipping (due to the need to differentiate the left and right lungs)
 
-The baseline model had less than 80% Accuracy.
 
 <br>
 
-### OUTCOME
-100% Accuracy on the test set.
+### CURRENT RESULTS
+At this point, I am only able to get about 77% Accuracy
 
 <br>
 
 
 ### FUTURE PROJECTS
-Recombine in the NORMAL category.
+Recombine the NORMAL category.
