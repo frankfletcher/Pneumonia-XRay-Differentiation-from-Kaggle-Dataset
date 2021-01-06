@@ -1,5 +1,6 @@
 # Pneumonia-XRay-Differentiation-from-Kaggle-Dataset
 
+<br>
 
 ### DATASET
 The dataset for this notebook is available here: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
@@ -9,9 +10,13 @@ The data contains chest x-ray images with 3 different labels
 2. BACTERIAL (pneumonia)
 3. VIRAL (pneumonia)
 
+<br>
+
 ### TASK
 The original task was to differentiate between Normal and Pneumonia.  This turned out to be quite simple to accomplish.  
 *I chose the harder task of categorizing between Bacterial pneumonia and Viral pneumonia.* 
+
+<br>
 
 ### CHALLENGES
 Several challenges presented themselves.  The first challenge is the lack of data.  The training set I used contained the following number of images per categegory:
@@ -27,8 +32,12 @@ To overcome this, we applied a standard set of augmentation transforms provided 
 
 The baseline model had less than 80% Accuracy.
 
+<br>
+
 ### OUTCOME
 100% Accuracy on the test set.
+
+<br>
 
 
 ### FUTURE PROJECTS
