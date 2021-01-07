@@ -12,6 +12,11 @@ The data contains chest x-ray images with 3 different labels
 
 <br>
 
+### IMPORTANT NOTE
+*Nothing of this project has clinical significance without clinical trials.  These models should never be used diagnostically.*
+
+<br>
+
 ### TASK
 The original task was to differentiate between Normal and Pneumonia.  This turned out to be quite simple to accomplish.  
 *I chose the harder task of categorizing between Bacterial pneumonia and Viral pneumonia.* 
@@ -34,7 +39,7 @@ To overcome this, we applied a standard set of augmentation transforms provided 
 <br>
 
 ### CURRENT RESULTS
-At this point, I am only able to get about 77% Accuracy
+At this point, I am only able to get about 83% Accuracy
 
 <br>
 
