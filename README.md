@@ -12,6 +12,11 @@ The data contains chest x-ray images with 3 different labels
 
 <br>
 
+### IMPORTANT NOTE
+*Nothing of this project has clinical significance without clinical trials.  These models should never be used diagnostically.*
+
+<br>
+
 ### TASK
 The original task was to differentiate between Normal and Pneumonia.  This turned out to be quite simple to accomplish.  
 *I chose the harder task of categorizing between Bacterial pneumonia and Viral pneumonia.* 
@@ -30,15 +35,14 @@ The delta was 1279 images, or slightly more than half the larger set. I used ove
 The second challenge was overfitting.  I used a Resnet-50 architecture which tended to favor the training set over the validation set.  
 To overcome this, we applied a standard set of augmentation transforms provided by FastAI, with the exception of flipping (due to the need to differentiate the left and right lungs)
 
-The baseline model had less than 80% Accuracy.
 
 <br>
 
-### OUTCOME
-100% Accuracy on the test set.
+### CURRENT RESULTS
+At this point, I am only able to get about 83% Accuracy
 
 <br>
 
 
 ### FUTURE PROJECTS
-Recombine in the NORMAL category.
+Recombine the NORMAL category.
